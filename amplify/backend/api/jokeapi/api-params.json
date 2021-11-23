@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/jokes",
+      "lambdaFunction": "devemberjokesbc65b55a",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/jokes"
+    }
+  ],
+  "resourceName": "jokeapi",
+  "apiName": "jokeapi",
+  "functionArns": [
+    {
+      "lambdaFunction": "devemberjokesbc65b55a"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-devemberjokes-dev-175307-authRole",
+    "unAuthRoleName": "amplify-devemberjokes-dev-175307-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "devemberjokesbc65b55a",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

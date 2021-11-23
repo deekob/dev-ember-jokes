@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-devemberjokes-dev-175307-authRole",
+      "UnauthRoleArn": "arn:aws:iam::978928857807:role/amplify-devemberjokes-dev-175307-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::978928857807:role/amplify-devemberjokes-dev-175307-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-devemberjokes-dev-175307-deployment",
+      "UnauthRoleName": "amplify-devemberjokes-dev-175307-unauthRole",
+      "StackName": "amplify-devemberjokes-dev-175307",
+      "StackId": "arn:aws:cloudformation:us-east-1:978928857807:stack/amplify-devemberjokes-dev-175307/2c2ae050-4c43-11ec-8b34-0a8cc81de61b",
+      "AmplifyAppId": "d3lz38kussrptu"
+    },
+    "categories": {
+      "function": {
+        "devemberjokesbc65b55a": {
+          "deploymentBucketName": "amplify-devemberjokes-dev-175307-deployment",
+          "s3Key": "amplify-builds/devemberjokesbc65b55a-726b4c474b755079786d-build.zip"
+        }
+      }
+    }
+  }
+}
